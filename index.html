@@ -19,6 +19,25 @@
           <a class="menu__item menu__item_legacy" href="#">LEGACY</a>
           <a class="menu__item menu__item_help" href="#">HELP</a>
           </nav>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <div class="nav__box">
+              <li><a class="menu__item menu__item_shop" href="#">SHOP</a></li>
+              <li><a class="menu__item menu__item_news" href="#">NEWS</a></li>
+              <li><a class="menu__item menu__item_team" href="#">TEAM</a></li>
+              <li><a class="menu__item menu__item_legacy" href="#">LEGACY</a></li>
+              <li><a class="menu__item menu__item_help" href="#">HELP</a></li>
+              <li><a class="menu__item menu__item_sign" href="#">SIGN IN</a></li>
+              <li><a class="menu__item menu__item_cart" href="#">CART</a></li>
+              <li><img class="menu__item menu__item_circle" src="img/circle.svg"></li>
+              <li><img class="menu__item menu__item_flag" src="img/flag.svg"></li>
+              </div>
+            </ul>
+          </div>
         </div>
           <div class="header_rt">
           <form class="menu__item menu__item_search">
@@ -72,7 +91,7 @@
         <img class="product__mandel_photo" src="img/mandel.png">
         <p class="product__mandel_title">Mandel Smoke/Rust Axion</p>
         <div class="product__assortment">
-        <p class="product__camel_price">$69.00</p>
+        <p class="product__mandel_price">$69.00</p>
         <nav class="circle">
           <button class="circle__item circle__item_grey"></button>
           <button class="circle__item circle__item_brawn"></button>
@@ -96,6 +115,7 @@
         </div>
       </div>
     </section>
+    <div class="wrapper__black">
     <section class="main-box">
       <img class="main-box__video" src="img/video.png">
       <div class="main-box__transp"></div>
@@ -104,7 +124,7 @@
       <h1 class="main-box__right_title">LEGENDARY FOOTWEAR REBORN</h1>
       <p class="main-box__right_subtitle">We are a brand with a history and are relaunching for 2019. We've been a part of the skater's family ever since it's early  teenage years. And now we presentate a new footwear collection.</p>
       <a class="main-box__button "href="#">LEARN MORE</a>
-      <div class="arrow"></div>
+      <div class="arrow__1"></div>
       </div>
     </section>
     <h4 class="stories__title">Recent stories</h4>
@@ -113,9 +133,11 @@
         <img class="stories-anagoa_photo" src="img/anagoa.png">
         <h2 class="stories-anagoa__title">Presents Justin Anagoa</h2>
         <p class="stories-anagoa__text">Anagoa’s been a part of the skater’s family ever since his early teenage years. He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how Anagoa lives his day-to-day, to see what makes Anagoa tick.</p>
+        <div class="stories-anagoa__bt_main">
         <div class="stories-anagoa__bt">
         <a class="stories-anagoa__button" href="#">LEARN MORE</a>
-        <div class="arrow arrow__1"></div>
+        <div class="arrow__2"></div>
+        </div>
         <p class="stories-anagoa__date">11.08.2018</p>
         </div>
       </div>
@@ -124,9 +146,11 @@
         <h2 class="stories-frontside__title">First Frontside flip</h2>
         <p class="stories-frontside__text">Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. Click the image below to see the full gallery and read up on what happened that day.<br/>
         Photo:Yoon Sul.</p>
+        <div class="stories-frontside__bt_main">
         <div class="stories-frontside__bt">
         <a class="stories-frontside__button" href="#">LEARN MORE</a>
-        <div class="arrow arrow__1"></div>
+        <div class="arrow__2"></div>
+        </div>
         <p class="stories-frontside__date">17.08.2018</p>
         </div>
       </div>
@@ -134,9 +158,11 @@
         <img class="stories-baekkel_photo" src="img/baekkel.png">
         <h2 class="stories-baekkel__title">Kevin Baekkel is Pro</h2>
         <p class="stories-baekkel_text">Creature proudly announced today that they’re officially adding Kevin Baekkel to their pro roster. After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly lighting every spot he hits on fire.</p>
+        <div class="stories-baekkel__bt_main">
         <div class="stories-baekkel__bt">
         <a class="stories-baekkel__button" href="#">LEARN MORE</a>
-        <div class="arrow arrow__1"></div>
+        <div class="arrow__2"></div>
+        </div>
         <p class="stories-baekkel__date">29.07.2018</p>
         </div>
       </div>
@@ -150,7 +176,9 @@
         <img class="gallery__photo gallery__photo_five" src="img/5.png">
         <img class="gallery__photo gallery__photo_six" src="img/6.png">
         <img class="gallery__photo gallery__photo_seven" src="img/7.png">
+        <img class="gallery__photo gallery__photo_eight" src="img/8.png">
       </div>
+    </div>
     </div>
     <footer class="footer">
       <div class="footer-account_mn">
@@ -193,10 +221,10 @@
         </div>
         <button class="footer-newsletter__button">SIGN UP</button>
         <nav class="social-icons">
-          <a class="social__item social__item_fb" href="https://www.facebook.com"><img src="img/facebook.svg"></a>
-          <a class="social__item social__item_tw" href="https://www.twitter.com"><img src="img/twitter.svg"></a>
-          <a class="social__item social__item_ig" href="https://www.instagram.com/"><img src="img/instagram.svg"></a>
-          <a class="social__item social__item_pt" href="https://www.pinterest.ru/"><img src="img/pinterest.svg"></a>
+          <a class="social__item social__item_fb" href="https://www.facebook.com"><img src="img/facebook.svg" class="facebook"></a>
+          <a class="social__item social__item_tw" href="https://www.twitter.com"><img src="img/twitter.svg" class="twitter"></a>
+          <a class="social__item social__item_ig" href="https://www.instagram.com/"><img src="img/instagram.svg" class="instagram"></a>
+          <a class="social__item social__item_pt" href="https://www.pinterest.ru/"><img src="img/pinterest.svg" class="pinterest"></a>
         </nav>
       </div>
       </div>
