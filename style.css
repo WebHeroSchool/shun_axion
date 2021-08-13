@@ -1199,6 +1199,10 @@ body {
     font: 10px/10px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   }
 
+  .main-box__right {
+    margin-left: 35px;
+  }
+
   .stories-anagoa,
   .stories-frontside,
   .stories-baekkel {
@@ -1229,11 +1233,11 @@ body {
   }
 
   .footer-account_mn {
-    width: 85%;
+    width: 88%;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 770px) {
   .wrapper {
     width: 100%;
   }
@@ -1572,6 +1576,7 @@ body {
   .stories__title {
     font: 30px/29px 'Gotham Pro Bold', arial, helvetica, sans-serif;
     color: #fff;
+    background: #000;
     margin: 0;
     padding-top: 104px;
     padding-bottom: 45px;
@@ -1580,6 +1585,7 @@ body {
   .stories {
     justify-content: space-evenly;
     height: 600px;
+    background: #000;
     margin: 0;
   }
 
@@ -1688,6 +1694,7 @@ body {
   .gallery__title {
     font: 30px/29px 'Gotham Pro Bold', arial, helvetica, sans-serif;
     color: #e8e8e8;
+    background: #000;
     opacity: 1;
     margin: 0;
     padding-top: 11px;
@@ -1696,7 +1703,7 @@ body {
   }
 
   .gallery__photo {
-    width: 680px;
+    width: 170px;
     display: grid;
     grid-template-columns: repeat(4, 170px);
     margin: 0 auto;
@@ -2093,7 +2100,8 @@ body {
   }
 
   .wrapper__black {
-    height: 1268px;
+    background: no-repeat url(img/black_fon_375.png);
+    height: 1281px;
   }
 
   .gallery__title {
@@ -2106,7 +2114,7 @@ body {
   .gallery__photo {
     display: grid;
     grid-template-columns: repeat(2, 140px);
-    width: 376px;
+    width: 140px;
     background: linear-gradient(-177.4deg, black 55%, white 55%);
   }
 
@@ -2149,7 +2157,7 @@ body {
 
   .footer {
     height: 900px;
-    margin-top: 279px;
+    margin-top: 266px;
   }
 
   .footer-account_mn {
