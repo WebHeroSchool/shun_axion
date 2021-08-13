@@ -2114,7 +2114,7 @@ body {
   .gallery__photo {
     display: grid;
     grid-template-columns: repeat(2, 140px);
-    width: 140px;
+    width: auto;
     background: linear-gradient(-177.4deg, black 55%, white 55%);
   }
 
@@ -2392,7 +2392,7 @@ body {
   }
 
   .gallery__photo {
-    width: 140px;
+    width: auto;
   }
 
   .footer {
