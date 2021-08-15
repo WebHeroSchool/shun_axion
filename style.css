@@ -10,8 +10,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 31px;
-  margin-bottom: 29px;
+  margin: 31px 0 29px 0;
 }
 
 .header_lf {
@@ -43,8 +42,7 @@ body {
   font: 12px/11px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #000;
   text-decoration: none;
-  margin-right: 35px;
-  margin-left: 0;
+  margin: 0 35px 0 0;
 }
 
 .menu__item_shop {
@@ -65,8 +63,7 @@ body {
   border-width: 0 0 1px 0;
   border-color: #000;
   width: 167px;
-  padding-right: 11px;
-  padding-top: 6px;
+  padding: 6px 11px 0 0;
 }
 
 .menu__item_search1 {
@@ -182,8 +179,7 @@ body {
 .product__title {
   font: 22px/21px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 18px;
+  margin: 50px 0 18px 0;
 }
 
 .product {
@@ -224,8 +220,7 @@ body {
   font: 14px/13px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #000;
   margin: 0;
-  padding-top: 8px;
-  padding-left: 12px;
+  padding: 8px 0 0 12px;
 }
 
 .product__assortment {
@@ -319,10 +314,7 @@ body {
 }
 
 .main-box__video {
-  margin-top: 47px;
-  margin-left: 33px;
-  margin-bottom: 45px;
-  margin-right: 0;
+  margin: 47px 0 45px 33px;
 }
 
 .main-box__transp {
@@ -382,15 +374,13 @@ body {
 .main-box__right_title {
   font: 22px/27px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
   color: #fff;
-  margin-top: 1px;
-  margin-bottom: 14px;
+  margin: 1px 0 14px 0;
 }
 
 .main-box__right_subtitle {
   font: 14px/17px 'Gotham Pro', Arial, Helvetica, Sans-serif;
   color: #fff;
-  margin-top: 15px;
-  margin-bottom: 17px;
+  margin: 15px 0 17px 0;
 }
 
 .main-box__button {
@@ -404,8 +394,7 @@ body {
   color: #000;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 44px;
+  margin: 0 0 44px 0;
 }
 
 .stories {
@@ -431,16 +420,14 @@ body {
 .stories-frontside__title,
 .stories-baekkel__title {
   font: 18px/17px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
-  margin-top: 27px;
-  margin-bottom: 12px;
+  margin: 27px 0 12px 0;
 }
 
 .stories-anagoa__text,
 .stories-frontside__text,
 .stories-baekkel_text {
   font: 14px/17px 'Gotham Pro', Arial, Helvetica, Sans-serif;
-  margin-top: 0;
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
 }
 
 .stories-anagoa__bt,
@@ -564,8 +551,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 67%;
-  margin: 0 auto;
-  margin-bottom: 53px;
+  margin: 0 auto 53px;
   padding-top: 57px;
 }
 
@@ -607,8 +593,7 @@ body {
 
 .footer-newsletter__subtitle {
   margin: 0;
-  padding-bottom: 13px;
-  padding-left: 3px;
+  padding: 0 0 13px 3px;
 }
 
 .menu-account {
@@ -641,8 +626,7 @@ body {
   display: block;
   cursor: pointer;
   width: 137px;
-  margin-left: 3px;
-  margin-bottom: 34px;
+  margin: 0 0 34px 3px;
   padding: 9px 30px 7px 29px;
   background: #000;
   border: solid 2px #fff;
@@ -682,8 +666,7 @@ body {
 }
 
 .social__item_tw {
-  padding-right: 0;
-  padding-top: 1px;
+  padding: 1px 0 0;
 }
 
 .social__item_ig {
@@ -691,13 +674,11 @@ body {
 }
 
 .social__item_pt {
-  padding-right: 7px;
-  padding-top: 1px;
+  padding: 1px 7px 0 0;
 }
 
 .footer__text {
-  margin-top: 0;
-  margin-bottom: 33px;
+  margin: 0 0 33px 0;
   padding-right: 5px;
   font: 12px/11px 'Gotham Pro', Arial, Helvetica, Sans-serif;
   color: #fff;
@@ -718,14 +699,87 @@ body {
   display: none;
 }
 
+
+@media (min-width: 1200px) {
+  .menu__item {
+    font: 14px/13px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .product__atlas_title,
+  .product__camel_title,
+  .product__mandel_title,
+  .product__cloud_title {
+    font: 16px/15px 'Gotham Pro Medium', Arial, Helvetica, Sans-serif;
+  }
+
+  .product__atlas_price,
+  .product__camel_price,
+  .product__mandel_price,
+  .product__cloud_price {
+    font: 16px/15px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .main-box__right_title {
+    font: 25px/30px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .main-box__right_subtitle {
+    font: 18px/21px 'Gotham Pro', Arial, Helvetica, Sans-serif;
+  }
+
+  .main-box__button {
+    font: 16px/15px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .stories-anagoa__title,
+  .stories-frontside__title,
+  .stories-baekkel__title {
+    font: 20px/19px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .stories-anagoa__text,
+  .stories-frontside__text,
+  .stories-baekkel_text {
+    font: 18px/19px 'Gotham Pro', Arial, Helvetica, Sans-serif;
+  }
+
+  .stories-anagoa__button,
+  .stories-frontside__button,
+  .stories-baekkel__button {
+    font: 15px/14px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .gallery__title {
+    font: 21px/20px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .footer-account__title,
+  .footer-service__title,
+  .footer-miscellaneous__title,
+  .footer-newsletter__title {
+    font: 15px/14px 'Gotham Pro Bold', Arial, Helvetica, Sans-serif;
+  }
+
+  .menu-account__item,
+  .menu-service__item,
+  .menu-miscellaneous__item,
+  .menu-newsletter__wrap,
+  .footer-newsletter__subtitle {
+    font: 14px/13px 'Gotham Pro', Arial, Helvetica, Sans-serif;
+  }
+
+  .footer__text {
+    font: 15px/13px 'Gotham Pro', Arial, Helvetica, Sans-serif;
+  }
+}
+
 @media (max-width: 1024px) {
   .wrapper {
     width: 91%;
   }
 
   .header {
-    margin-top: 31px;
-    margin-bottom: 43px;
+    margin: 31px 0 43px 0;
   }
 
   .logo {
@@ -794,8 +848,7 @@ body {
   }
 
   .product__title {
-    margin-top: 64px;
-    margin-bottom: 22px;
+    margin: 64px 0 22px 0;
   }
 
   .product__atlas_photo,
@@ -872,8 +925,7 @@ body {
 
   .main-box__video {
     width: 62%;
-    margin-top: 45px;
-    margin-left: 31px;
+    margin: 45px 0 45px 31px;
   }
 
   .main-box__circle {
@@ -881,6 +933,7 @@ body {
     height: 41px;
     margin-left: 300px;
   }
+
   .main-box__transp {
     width: 54px;
     height: 51px;
@@ -893,14 +946,12 @@ body {
   }
 
   .main-box__right_title {
-    margin-top: 7px;
-    margin-bottom: 10px;
+    margin: 7px 0 10px 0;
   }
 
   .main-box__right_subtitle {
     font: 13px/16px 'Gotham Pro', Arial, Helvetica, Sans-serif;
-    margin-bottom: 12px;
-    margin-top: 0;
+    margin: 0 0 12px 0;
     padding-left: 1px;
   }
 
@@ -1003,8 +1054,7 @@ body {
   }
 
   .social__item_tw {
-    padding-right: 2px;
-    padding-top: 1px;
+    padding: 1px 2px 0 0;
   }
 
   .social__item_pt {
@@ -1248,8 +1298,7 @@ body {
   }
 
   .header {
-    margin-top: 41px;
-    margin-bottom: 39px;
+    margin: 41px 0 39px 0;
   }
 
   .logo {
@@ -1380,7 +1429,7 @@ body {
   }
 
   .menu__item_cart {
-    margin: 0:
+    margin: 0;
   }
 
   .menu__item_circle {
@@ -1482,14 +1531,12 @@ body {
 
   .product__atlas_price {
     font: 25px/24px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    padding-top: 17px;
-    padding-left: 8px;
+    padding: 17px 0 0 8px;
   }
 
   .product__camel_price {
     font: 25px/24px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    padding-top: 17px;
-    padding-left: 14px;
+    padding: 17px 0 0 14px;
   }
 
   .circle {
@@ -1540,8 +1587,7 @@ body {
 
   .main-box__right_title {
     font: 30px/37px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    margin-top: 34px;
-    margin-bottom: 15px;
+    margin: 34px 0 15px 0;
   }
 
   .main-box__right_subtitle {
@@ -1562,15 +1608,13 @@ body {
   .main-box__circle {
     width: 49px;
     height: 49px;
-    margin-left: 0;
-    margin-bottom: 171px;
+    margin: 0 0 171px 0;
   }
 
   .main-box__transp {
     width: 60px;
     height: 60px;
-    margin-left: 0;
-    margin-bottom: 165px;
+    margin: 0 0 165px 0;
   }
 
   .stories__title {
@@ -1578,8 +1622,7 @@ body {
     color: #fff;
     background: #000;
     margin: 0;
-    padding-top: 104px;
-    padding-bottom: 45px;
+    padding: 104px 0 45px 0;
   }
 
   .stories {
@@ -1611,16 +1654,14 @@ body {
   .stories-anagoa__title {
     font: 25px/24px 'Gotham Pro Bold', arial, helvetica, sans-serif;
     color: #fff;
-    margin-bottom: 8px;
-    margin-top: 28px;
+    margin: 28px 0 8px 0;
     padding: 0;
   }
 
   .stories-frontside__title{
     font: 25px/24px 'Gotham Pro Bold', arial, helvetica, sans-serif;
     color: #fff;
-    margin-bottom: 8px;
-    margin-top: 28px;
+    margin: 28px 0 8px 0;
     padding-left: 1px;
   }
 
@@ -1642,15 +1683,13 @@ body {
   .stories-anagoa__button {
     font: 20px/19px 'Gotham Pro Bold', arial, helvetica, sans-serif;
     color: #fff;
-    padding-right: 9px;
-    padding-left: 0px;
+    padding: 0 9px 0 0;
   }
 
   .stories-frontside__button {
     font: 20px/19px 'Gotham Pro Bold', arial, helvetica, sans-serif;
     color: #fff;
-    padding-right: 9px;
-    padding-left: 1px;
+    padding: 0 9px 0 1px;
   }
 
   .stories-anagoa__bt_main {
@@ -1697,9 +1736,7 @@ body {
     background: #000;
     opacity: 1;
     margin: 0;
-    padding-top: 11px;
-    padding-right: 43px;
-    padding-bottom: 13px;
+    padding: 11px 43px 13px 0;
   }
 
   .gallery__photo {
@@ -1753,8 +1790,7 @@ body {
   }
 
   .footer-service__title {
-    padding-left: 5px;
-    padding-right: 6px;
+    padding: 0 6px 0 5px;
     margin-bottom: 4px;
   }
 
@@ -1855,7 +1891,7 @@ body {
   .gallery__photo_three,
   .gallery__photo_five,
   .gallery__photo_six,
-  .gallery__photo_seven,{
+  .gallery__photo_seven {
     width: 160px;
     height: 160px;
   }
@@ -1949,8 +1985,7 @@ body {
 
 @media (max-width: 500px) {
   .header {
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin: 24px 0 16px 0;
   }
 
   .logo {
@@ -2030,8 +2065,7 @@ body {
   .product__title {
     font: 20px/19px 'Gotham Pro Bold', arial, helvetica, sans-serif;
     padding-right: 10px;
-    margin-top: 36px;
-    margin-bottom: 1px;
+    margin: 36px 0 1px 0;
   }
 
   .product__atlas_photo {
@@ -2047,8 +2081,7 @@ body {
 
   .product__atlas_price {
     font: 20px/19px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    padding-top: 6px;
-    padding-left: 28px;
+    padding: 6px 0 0 28px;
   }
 
   .product__assortment {
@@ -2070,9 +2103,7 @@ body {
   .main-box__right_title {
     font: 20px/24px 'Gotham Pro Bold', arial, helvetica, sans-serif;
     width: 68%;
-    margin-left: 53px;
-    margin-top: 10px;
-    margin-bottom: 19px;
+    margin: 10px 0 19px 53px;
   }
 
   .main-box__right_subtitle {
@@ -2111,8 +2142,7 @@ body {
 
   .stories__title {
     font: 20px/19px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    padding-top: 99px;
-    padding-bottom: 28px;
+    padding: 99px 0 28px 0;
   }
 
   .stories-anagoa_photo {
@@ -2123,9 +2153,8 @@ body {
 
   .stories-anagoa__title {
     font: 20px/19px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    margin-top: 26px;
+    margin: 26px 0 10px 0;
     padding-left: 23px;
-    margin-bottom: 10px;
   }
 
   .stories-anagoa__text {
@@ -2182,9 +2211,7 @@ body {
 
   .gallery__title {
     font: 25px/24px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    padding-top: 13px;
-    padding-right: 53px;
-    padding-bottom: 11px;
+    padding: 13px 53px 11px 0;
   }
 
   .gallery__photo {
@@ -2253,16 +2280,14 @@ body {
 
   .footer-miscellaneous__title {
     font: 15px/14px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    margin-top: 11px;
+    margin: 11px 0 4px 0;
     padding-left: 4px;
-    margin-bottom: 4px;
   }
 
   .footer-service__title {
     font: 15px/14px 'Gotham Pro Bold', arial, helvetica, sans-serif;
-    margin-bottom: 4px;
+    margin: 16px 0 4px 0;
     padding-right: 0px;
-    margin-top: 16px;
   }
 
   .footer-newsletter__title {
@@ -2290,8 +2315,7 @@ body {
 
   .footer-account {
     order: 0;
-    padding-left: 0;
-    padding-bottom: 34px;
+    padding: 0 0 34px 0;
   }
 
   .footer-miscellaneous {
@@ -2318,8 +2342,7 @@ body {
   .footer-newsletter__button {
     font: 12px/11px 'Gotham Pro', arial, helvetica, sans-serif;
     width: 150px;
-    margin-left: 17px;
-    margin-bottom: 104px;
+    margin: 0 0 104px 17px;
     padding: 11px 28px 11px 29px;
   }
 
